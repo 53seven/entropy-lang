@@ -1,0 +1,31 @@
+{
+  "name": "entropy-lang",
+  "version": "0.0.0",
+  "description": "",
+  "author": {
+    "name": "kiernan",
+    "email": "kiernan@537.io",
+    "url": "537.io"
+  },
+  "scripts": {
+    "test": "babel-node test/entropy-test.js | faucet",
+    "beer": "babel-node example/beer.js",
+    "foo": "babel-node example/foo.js"
+  },
+  "main": "lib/entropy.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-class-properties": "^6.6.0",
+    "babel-plugin-transform-decorators": "^6.6.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "tape": "4",
+    "tape-catch": "^1.0.4"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  }
+}
