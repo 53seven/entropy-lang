@@ -1,6 +1,8 @@
 entropy-lang
 ===
 
+[![build status](https://travis-ci.org/53seven/entropy-lang.svg)](https://travis-ci.org/53seven/entropy-lang)
+
 An implementation of the [Entropy Programming language](https://esolangs.org/wiki/Entropy) in javascript created with [decorators](https://github.com/wycats/javascript-decorators).
 
 
