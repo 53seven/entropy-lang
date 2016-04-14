@@ -16,15 +16,15 @@ Usage
 The `entropy-lang` package provides a few functions that can be used as decorators to create the randomness of the entropy programming language.
 
 ```js
-import {int} from 'entropy-lang';
+import {number} from 'entropy-lang';
 class Test{
-  @int
+  @number
   foo() {
     return 5;
   }
 }
 var t = new Test();
-// every foo is called the returned value is modified
+// every time foo is called the returned value is modified
 t.foo(); // 5.3325573585461825
 t.foo(); // 4.976981917163357
 t.foo(); // 4.678662626305595
@@ -64,11 +64,11 @@ S_lionf!fouk*"pbrokrdtpslf+
 
 ```js
 // example/beer.js
-import {int, str} from 'entropy-lang';
+import {number, str} from 'entropy-lang';
 
 class WallOBeers {
 
-  @int
+  @number
   beers() {
     return 99;
   }
@@ -114,10 +114,10 @@ API
 Example use:
 
 ```js
-import {int, char, string, any} from 'entropy-lang';
+import {number, char, string, any} from 'entropy-lang';
 
 class Foo {
-  @int
+  @number
   a() {
     return 5;
   }
@@ -146,7 +146,7 @@ function _date(current_value) {
 
 ```
 
-##### int
+##### number
 
 Modifies number types based on `(Math.random() - 0.5)`.
 

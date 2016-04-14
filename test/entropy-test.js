@@ -1,9 +1,9 @@
-// int-test.js
+// entropy-test.js
 import * as tape from 'tape-catch';
-import {int, str} from '../';
+import {number, str} from '../';
 
 class IntTest {
-  @int
+  @number
   one() {
     return 1;
   }
@@ -12,7 +12,7 @@ class IntTest {
 class StrTest {
   @str
   foo() {
-    return 'fooooooooooooooooooooo';
+    return 'foooooooooooooooooooooooooooooooooooooooooooooooooooooooooo';
   }
 }
 
