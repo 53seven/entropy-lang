@@ -1,6 +1,6 @@
-import {int} from '../';
+import {number} from '../';
 class Test{
-  @int
+  @number
   foo() {
     return 5;
   }

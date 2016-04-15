@@ -1,9 +1,9 @@
 // example.js
-import {int, str} from '../';
+import {number, str} from '../';
 
 class WallOBeers {
 
-  @int
+  @number
   beers() {
     return 99;
   }
